@@ -45,8 +45,8 @@ public class CarDatabaseApplication {
 			repository.save(new Car("Toyota", "Prius", "Silver", "KKO-0212", 2018, 39000, owner2));
 
 			// Add users
-			urepository.save(new User("user", "$2y$12$R2DA8yOwdzxFlaxd7KIiTehumRbUDMWmROqKb1j5Ha.X5pQ7JIME6", "USER"));
-			urepository.save(new User("admin", "$2y$12$R2DA8yOwdzxFlaxd7KIiTehumRbUDMWmROqKb1j5Ha.X5pQ7JIME6", "ADMIN"));
+			urepository.save(new User("user", "$2a$04$1.YhMIgNX/8TkCKGFUONWO1waedKhQ5KrnB30fl0Q01QKqmzLf.Zi", "USER"));
+			urepository.save(new User("admin", "$2a$04$KNLUwOWHVQZVpXyMBNc7JOzbLiBjb9Tk9bP7KNcPI12ICuvzXQQKG", "ADMIN"));
 		};
 	}
 
